@@ -1,0 +1,71 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100%;
+  margin: 16px;
+  gap: 16px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.todoListTitle {
+  text-align: center;
+}
+
+.todoInputBox {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.todoInput {
+  width: 100%;
+  height: 100%;
+  padding-left: 8px;
+}
+
+.todoInputBtn {
+  position: absolute;
+  background-color: inherit;
+  border: none;
+  width: 40px;
+  height: 100%;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.todoListBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.todoList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.todoBtn {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.flexBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.check {
+  color: red;
+}
